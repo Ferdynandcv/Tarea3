@@ -1,0 +1,45 @@
+
+
+body{
+	background-color:#198490;
+	display: flex;
+}
+
+.principal{
+
+	height: 100vh;
+	width: 50%;
+
+} 
+
+.resultado{
+background-position: center;
+height: 50vh;
+width: 50%;
+
+}
+
+
+h1{
+	color:#FFF;
+	padding-bottom:5px;
+}
+h2{
+	color:#FFF;
+	border-top:2px solid #FFF;
+	padding-bottom:25px;
+	text-align:left;
+	font-size: 5mm;
+}
+
+p{
+	color:#FC0;
+	font-size:2em;
+}
+
+
+a{
+	color:#FC0;
+	font-size:2em;
+	text-align: right;
+}

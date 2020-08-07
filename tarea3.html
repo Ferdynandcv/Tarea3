@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Usando Listeners</title>
+  <link rel="stylesheet" href="css/micss.css">
+</head>
+
+<div class="principal">
+  <h1> Manejando de Listeners</h1>
+
+  <h2>
+    <button id="Btn1">Ejemplo 1</button>
+
+    Este Listeners nos muestra la hora actual en cada click!
+  </h2>
+
+  <h2>
+    <button id="Btn2">Ejemplo 2</button>
+    Este Listeners nos muestra eventos en este boton
+  </h2>
+
+  <h2>
+    <button id="Btn3">Ejemplo 3</button>
+    Este Listeners nos multiplica de los numeros ingresados!
+  </h2>
+
+</div>
+
+<div class="resultado">
+  <a id="win">tamaño de ventana</a>
+  <br>
+  <a id="result">Resultado</a>
+
+</div>
+
+
+<body>
+  <script src="Botones/funcion_btns.js"></script>
+
+  <script>
+    window.addEventListener("resize", function () {
+    document.getElementById("win").innerHTML = Math.random();
+    });
+  </script>
+
+</body>
+
+</html>
